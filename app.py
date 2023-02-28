@@ -18,4 +18,4 @@ def second():
     return 'Second view function'
 
 if __name__=='__main__':
-    AI.run(debug=True)
+    AI.run(debug=True,host='192.168.43.53',port=5001)
